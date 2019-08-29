@@ -13,6 +13,7 @@
 		154917FC231667F200F9B23A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 154917FA231667F200F9B23A /* Main.storyboard */; };
 		154917FE231667F300F9B23A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 154917FD231667F300F9B23A /* Assets.xcassets */; };
 		15491801231667F300F9B23A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 154917FF231667F300F9B23A /* LaunchScreen.storyboard */; };
+		1549180923169A3200F9B23A /* AddFireAssistent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1549180823169A3200F9B23A /* AddFireAssistent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		154917FD231667F300F9B23A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15491800231667F300F9B23A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15491802231667F300F9B23A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1549180823169A3200F9B23A /* AddFireAssistent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFireAssistent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				154917F4231667F200F9B23A /* AppDelegate.swift */,
 				154917F6231667F200F9B23A /* SceneDelegate.swift */,
 				154917F8231667F200F9B23A /* ViewController.swift */,
+				1549180823169A3200F9B23A /* AddFireAssistent.swift */,
 				154917FA231667F200F9B23A /* Main.storyboard */,
 				154917FD231667F300F9B23A /* Assets.xcassets */,
 				154917FF231667F300F9B23A /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				154917F9231667F200F9B23A /* ViewController.swift in Sources */,
 				154917F5231667F200F9B23A /* AppDelegate.swift in Sources */,
+				1549180923169A3200F9B23A /* AddFireAssistent.swift in Sources */,
 				154917F7231667F200F9B23A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
     public var delay: TimeInterval = 0.16
     private var timer: Timer?
     public static var sparkColorSet: [UIColor] = {
@@ -26,6 +27,9 @@ class ViewController: UIViewController {
 //        CGPoint(x: theView.frame.maxX, y: theView.frame.maxY),
 //    ]
     var theView = UIView(frame: CGRect(x: 50, y: 200, width: 44, height: 44))
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        print("xxxxxx")
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.addSubview(theView)
@@ -34,7 +38,8 @@ class ViewController: UIViewController {
 //        self.scheduleTimer()
 //        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 4) {
 //            self.timerDidFire()
-            self.scheduleTimer()
+        AddFireAssistent.share.startByView(theView)
+//            self.scheduleTimer()
 //        }
         // Do any additional setup after loading the view.
     }
@@ -58,7 +63,6 @@ class ViewController: UIViewController {
 //                                          selector: #selector(timerDidFire),
 //                                          userInfo: nil, repeats: true)
     }
-    
     @objc private func timerDidFire() {
         let timeInterval : CFTimeInterval = 0.6
         //https://www.desmos.com/calculator/epunzldltu
@@ -182,9 +186,3 @@ class ViewController: UIViewController {
        }
 }
 
-
-class VVVV: UIView {
-    deinit {
-        print("销毁")
-    }
-}

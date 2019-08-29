@@ -12,12 +12,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "KeyFrameAnimate/ViewController.swift"
+            timestampString = "0"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
-            landmarkName = "cancel()"
-            landmarkType = "7">
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "ViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -28,12 +29,29 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "KeyFrameAnimate/ViewController.swift"
+            timestampString = "0"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
             landmarkName = "scheduleTimer()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F810846-ACC7-40F9-8430-5C90CC008C00"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KeyFrameAnimate/AddFireAssistent.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
